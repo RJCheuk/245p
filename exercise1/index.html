@@ -15,23 +15,31 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
-  padding: 30px;
+  background-color: #4CAF50; /* Changed color to dark green */
+  padding: 50px 25px 50px 25px; /* Adjusted padding */
   text-align: center;
   font-size: 35px;
   color: white;
 }
 
+/* Custom styles for h1 and p */
+h1 {
+  color: #0066cc; /* Set h1 color to a shade of blue */
+}
+
+p {
+  color: #333333; /* Set p color to dark gray */
+}
+
 /* Container for flexboxes */
 section {
-  display: -webkit-flex;
   display: flex;
+  gap: 10px;
+  padding: 10px;
 }
 
 /* Style the navigation menu */
 nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
   flex: 1;
   background: #ccc;
   padding: 20px;
@@ -43,13 +51,17 @@ nav ul {
   padding: 0;
 }
 
-/* Style the content */
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Style each article */
 article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
   flex: 3;
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 /* Style the footer */
@@ -63,38 +75,48 @@ footer {
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
   section {
-    -webkit-flex-direction: column;
     flex-direction: column;
   }
 }
 </style>
+
 </head>
 <body>
 
 <header>
-  <h2>Cities</h2>
+  <h2>Food</h2>
 </header>
 
 <section>
   <nav>
     <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Italian_cuisine" target="_blank">Italian Cuisine</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Japanese_cuisine" target="_blank">Japanese Cuisine</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Mexican_cuisine" target="_blank">Mexican Cuisine</a></li>
     </ul>
   </nav>
-  
+
   <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <h2>Italian Cuisine</h2>
+    <p>Italian food is known for its pasta, pizzas, and a variety of desserts.</p>
+  </article>
+
+  <article>
+    <h2>Japanese Cuisine</h2>
+    <p>Japanese food is famous for sushi, ramen, and unique seafood dishes.</p>
+  </article>
+
+  <article>
+    <h2>Mexican Cuisine</h2>
+    <p>Mexican cuisine features tacos, burritos, and delicious salsas.</p>
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>Created by Jiacheng Zhuo - <a href="https://github.com/RJCheuk/245p" target="_blank">GitHub Repository</a></p>
 </footer>
 
 </body>
 </html>
+
 
