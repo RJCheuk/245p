@@ -1,0 +1,23 @@
+.carousel {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    overflow: hidden;
+  }
+  
+  .slide__container {
+    display: inline-flex;
+    white-space: nowrap;
+    position: relative;
+    height: 300px;
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  img {
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
+  }
+  
+  

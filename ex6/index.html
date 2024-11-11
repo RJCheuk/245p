@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="carousel">
+    <div class="slide__container">
+      <!-- 克隆的最后一张图片放在第一个位置 -->
+      <img src="desert.jpg" alt="Image 3" id="lastClone">
+      <!-- 原始图片 -->
+      <img src="800x600_Wallpaper_Blue_Sky.png" alt="Image 1">
+      <img src="paper image.jpg" alt="Image 2">
+      <img src="desert.jpg" alt="Image 3">
+      <!-- 克隆的第一张图片放在最后一个位置 -->
+      <img src="800x600_Wallpaper_Blue_Sky.png" alt="Image 1" id="firstClone">
+    </div>
+  </div>
+
+  <button id="prevButton">prev</button>
+  <button id="nextButton">next</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
