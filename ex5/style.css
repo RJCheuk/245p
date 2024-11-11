@@ -1,0 +1,54 @@
+/* Main container for tabs */
+.tabs {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  /* Sidebar for tab buttons */
+  .tabs__sidebar {
+    width: 200px;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds space between each button */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for individual tab buttons */
+  .tabs__button {
+    padding: 20px;
+    text-align: center;
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .tabs__button:hover {
+    background: #d0d0d0;
+  }
+  
+  /* Active button styling */
+  .tabs__button--active {
+    background-color: #cccccc;
+    font-weight: bold;
+  }
+  
+  /* Content area styling */
+  .tabs__content {
+    display: none;
+    flex-grow: 1; /* Ensures content area fills remaining space */
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Active content styling */
+  .tabs__content--active {
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
