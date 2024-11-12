@@ -1,0 +1,9 @@
+Testing Environment:
+- Browser: Google Chrome 130.0.6723.117 (arm64)
+- Operating System: MacOS Sonoma 14.1.2
+- Computer Architecture: ARMv8.4-A
+- Mobile Device Simulation: Used Chrome's device mode to test responsiveness on various mobile devices.
+
+Testing Steps:
+1. Opened the webpage in Chrome, Firefox, and Safari.
+2. Used Chrome's Developer Tools to simulate mobile devices and checked responsiveness.
