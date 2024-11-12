@@ -1,0 +1,14 @@
+nav {
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
