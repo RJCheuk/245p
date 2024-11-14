@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";// 引入 React Router 的 Link
 
 function Sidebar() {
   return (

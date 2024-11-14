@@ -1,0 +1,14 @@
+/* MainContent.css */
+.main-content {
+    padding: 20px;
+    margin-left: 260px;
+    background-color: #f4f4f4;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main-content {
+      margin-left: 0;
+      padding: 15px;
+    }
+  }
+  
